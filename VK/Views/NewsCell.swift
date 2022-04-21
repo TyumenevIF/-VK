@@ -9,7 +9,7 @@
 import UIKit
 import Kingfisher
 
-protocol NewsPostCellCellDelegate: class {
+protocol NewsPostCellCellDelegate: AnyObject {
     func didTapShowMore(cell: NewsPostCell)
 }
 

@@ -1,52 +1,52 @@
 PODS:
-  - Alamofire (5.4.3)
-  - Firebase/CoreOnly (7.11.0):
-    - FirebaseCore (= 7.11.0)
-  - Firebase/Database (7.11.0):
+  - Alamofire (5.6.1)
+  - Firebase/CoreOnly (8.15.0):
+    - FirebaseCore (= 8.15.0)
+  - Firebase/Database (8.15.0):
     - Firebase/CoreOnly
-    - FirebaseDatabase (~> 7.11.0)
-  - FirebaseCore (7.11.0):
-    - FirebaseCoreDiagnostics (~> 7.4)
-    - GoogleUtilities/Environment (~> 7.0)
-    - GoogleUtilities/Logger (~> 7.0)
-  - FirebaseCoreDiagnostics (7.11.0):
-    - GoogleDataTransport (~> 8.4)
-    - GoogleUtilities/Environment (~> 7.0)
-    - GoogleUtilities/Logger (~> 7.0)
+    - FirebaseDatabase (~> 8.15.0)
+  - FirebaseCore (8.15.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+  - FirebaseCoreDiagnostics (8.15.0):
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
     - nanopb (~> 2.30908.0)
-  - FirebaseDatabase (7.11.0):
-    - FirebaseCore (~> 7.0)
+  - FirebaseDatabase (8.15.0):
+    - FirebaseCore (~> 8.0)
     - leveldb-library (~> 1.22)
-  - GoogleDataTransport (8.4.0):
+  - GoogleDataTransport (9.1.2):
     - GoogleUtilities/Environment (~> 7.2)
     - nanopb (~> 2.30908.0)
-    - PromisesObjC (~> 1.2)
-  - GoogleUtilities/Environment (7.4.0):
-    - PromisesObjC (~> 1.2)
-  - GoogleUtilities/Logger (7.4.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
     - GoogleUtilities/Environment
-  - Kingfisher (6.3.0)
+  - Kingfisher (6.3.1)
   - leveldb-library (1.22.1)
   - nanopb (2.30908.0):
     - nanopb/decode (= 2.30908.0)
     - nanopb/encode (= 2.30908.0)
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
-  - PromiseKit (6.13.1):
-    - PromiseKit/CorePromise (= 6.13.1)
-    - PromiseKit/Foundation (= 6.13.1)
-    - PromiseKit/UIKit (= 6.13.1)
-  - PromiseKit/CorePromise (6.13.1)
-  - PromiseKit/Foundation (6.13.1):
+  - PromiseKit (6.17.0):
+    - PromiseKit/CorePromise (= 6.17.0)
+    - PromiseKit/Foundation (= 6.17.0)
+    - PromiseKit/UIKit (= 6.17.0)
+  - PromiseKit/CorePromise (6.17.0)
+  - PromiseKit/Foundation (6.17.0):
     - PromiseKit/CorePromise
-  - PromiseKit/UIKit (6.13.1):
+  - PromiseKit/UIKit (6.17.0):
     - PromiseKit/CorePromise
-  - PromisesObjC (1.2.12)
-  - Realm (10.7.4):
-    - Realm/Headers (= 10.7.4)
-  - Realm/Headers (10.7.4)
-  - RealmSwift (10.7.4):
-    - Realm (= 10.7.4)
+  - PromisesObjC (2.1.0)
+  - Realm (10.25.1):
+    - Realm/Headers (= 10.25.1)
+  - Realm/Headers (10.25.1)
+  - RealmSwift (10.25.1):
+    - Realm (= 10.25.1)
 
 DEPENDENCIES:
   - Alamofire
@@ -73,21 +73,21 @@ SPEC REPOS:
     - RealmSwift
 
 SPEC CHECKSUMS:
-  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
-  Firebase: c121feb35e4126c0b355e3313fa9b487d47319fd
-  FirebaseCore: 907447d8917a4d3eb0cce2829c5a0ad21d90b432
-  FirebaseCoreDiagnostics: 68ad972f99206cef818230f3f3179d52ccfb7f8c
-  FirebaseDatabase: 6c39fbf1c8514a2f32e610f9bf9ef30c535dc15a
-  GoogleDataTransport: cd9db2180fcecd8da1b561aea31e3e56cf834aa7
-  GoogleUtilities: 284cddc7fffc14ae1907efb6f78ab95c1fccaedc
-  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  Firebase: 5f8193dff4b5b7c5d5ef72ae54bb76c08e2b841d
+  FirebaseCore: 5743c5785c074a794d35f2fff7ecc254a91e08b1
+  FirebaseCoreDiagnostics: 92e07a649aeb66352b319d43bdd2ee3942af84cb
+  FirebaseDatabase: f567afd233e54a303d84423207736590a6feb419
+  GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
-  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
-  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
-  Realm: f08ce1a85649a41303ecfe1cbd914c62e9e6d710
-  RealmSwift: 60ec49d165f23d040ab48811d8dd177e09baf4d3
+  PromiseKit: 996202d4cae72b7801b312abef4cd2f995b2978a
+  PromisesObjC: 99b6f43f9e1044bd87a95a60beff28c2c44ddb72
+  Realm: 1a6e9b4f6983711655d8c0bcb6d2d29c3afbb1f3
+  RealmSwift: e72669550d27082aa4fad5d176f5076cfe806245
 
-PODFILE CHECKSUM: e73f213d1cde250a32b777b46ee11c35496721b8
+PODFILE CHECKSUM: fd9ebd28c8064f0e0b54bd15f2cc9f8f6751ba58
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.3

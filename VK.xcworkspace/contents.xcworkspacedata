@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Volumes/Macintosh HD/Profile/Desktop/VK/VK.xcodeproj">
+      location = "group:VK.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

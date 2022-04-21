@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol LetterPickerDelegate: class {
+protocol LetterPickerDelegate: AnyObject {
     func letterPicked(_ letter: String)
 }
 

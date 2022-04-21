@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -285,8 +285,6 @@
 			dependencies = (
 			);
 			name = VK;
-			packageProductDependencies = (
-			);
 			productName = VK;
 			productReference = 28A95CBC2497A51C00E5B55B /* VK.app */;
 			productType = "com.apple.product-type.application";
@@ -315,8 +313,6 @@
 				Base,
 			);
 			mainGroup = 28A95CB32497A51C00E5B55B;
-			packageReferences = (
-			);
 			productRefGroup = 28A95CBD2497A51C00E5B55B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

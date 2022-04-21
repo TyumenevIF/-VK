@@ -28,7 +28,7 @@ import UIKit
         }
     }
     
-    @IBInspectable var avatarImage: UIImage? = nil {
+    @IBInspectable var avatarImage: UIImage? {
         didSet {
             imageView.image = avatarImage
             setNeedsLayout()
