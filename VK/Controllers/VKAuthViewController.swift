@@ -30,12 +30,12 @@ class VKAuthViewController: UIViewController, WKNavigationDelegate {
         components.host = "oauth.vk.com"
         components.path = "/authorize"
         components.queryItems = [
-            URLQueryItem(name: "client_id", value: "7553594"),
+            URLQueryItem(name: "client_id", value: "8146788"),
             URLQueryItem(name: "redirect_uri", value: "https://oauth.vk.com/blank.html"),
             URLQueryItem(name: "display", value: "mobile"),
             URLQueryItem(name: "scope", value: "wall,friends,photos"),
             URLQueryItem(name: "response_type", value: "token"),
-            URLQueryItem(name: "v", value: "5.68")
+            URLQueryItem(name: "v", value: "5.131")
         ]
         
         guard let url = components.url else { return }

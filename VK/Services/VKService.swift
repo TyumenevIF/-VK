@@ -90,7 +90,7 @@ final class VKService {
         
         let queryItems = [
             URLQueryItem(name: "access_token", value: Session.instance.token),
-            URLQueryItem(name: "v", value: "5.68"),
+            URLQueryItem(name: "v", value: "5.131"),
             URLQueryItem(name: "count", value: "10")
         ]
         

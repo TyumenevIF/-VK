@@ -38,7 +38,7 @@ final class VKFriendsService {
             
             let queryItems = [
                 URLQueryItem(name: "access_token", value: Session.instance.token),
-                URLQueryItem(name: "v", value: "5.68")
+                URLQueryItem(name: "v", value: "5.131")
             ]
             
             let methodQueryItems = method.parameters.map { URLQueryItem(name: $0, value: $1) }
