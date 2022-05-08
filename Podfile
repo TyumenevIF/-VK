@@ -10,5 +10,6 @@ target 'VK' do
   pod 'RealmSwift'
   pod 'Firebase/Database'
   pod 'PromiseKit'
+  pod 'SwiftLint'
 
 end
