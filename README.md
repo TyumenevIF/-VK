@@ -1,4 +1,4 @@
-# Клиент для социальной сети ВКонтакте “VK”
+## “VK” - клиент для социальной сети ВКонтакте
 
 **Стек:** Swift, архитектура MVC, верстка контроллеров в Storyboard, UIKit, Webkit, RealmSwift, Kingfisher,
 FirebaseDatabase, PromiseKit, Alamofire, VK API, GCD, NSOperation, animation.
